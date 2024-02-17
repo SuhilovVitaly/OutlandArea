@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -8,6 +8,22 @@
 
   <ItemGroup>
     <ProjectReference Include="..\OutlandArea.Interfaces\OutlandArea.Interfaces.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Universe\CelestialObjects\" />
+    <Folder Include="Universe\Components\Fuel\" />
+    <Folder Include="Universe\Components\Metal\" />
+    <Folder Include="Universe\Components\FrozenFood\" />
+    <Folder Include="Universe\Components\Water\" />
+    <Folder Include="Universe\Equipment\StationSections\DockSection\" />
+    <Folder Include="Universe\Equipment\StationSections\ResidentialSection\" />
+    <Folder Include="Universe\Equipment\StationSections\PlantSection\" />
+    <Folder Include="Universe\Equipment\StationSections\WarehouseSection\" />
+    <Folder Include="Universe\Equipment\StationWarehouse\" />
+    <Folder Include="Universe\Materials\Minerals\" />
+    <Folder Include="Universe\Materials\IceProducts\" />
+    <Folder Include="Universe\IndustrialPlants\" />
   </ItemGroup>
 
 </Project>
